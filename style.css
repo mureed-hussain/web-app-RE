@@ -57,9 +57,10 @@ header {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 2px blue;
+  cursor: pointer;
 }
 
-top-nav button:hover {
+.top-nav button:hover {
   background-color: var(--white);
   color: #00007c;
 }
@@ -101,6 +102,7 @@ form input {
   padding: 10px 70px;
   background-color: transparent;
   text-align: center;
+  color: white;
 }
 
 form button {
@@ -111,6 +113,7 @@ form button {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 2px blue;
+  cursor: pointer;
 }
 
 form button:hover {
